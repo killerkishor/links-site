@@ -97,6 +97,7 @@ body {
 .content-detail p {
 	font-size: 17px;
 	margin-bottom: 10px;
+	color: #666;
 }
 .content-detail-inside {
 	margin: 15px 30px;
@@ -165,6 +166,12 @@ body {
   float: right;
 }
 
+.header {
+	background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
 .topnav a {
   float: left;
   display: block;
@@ -189,6 +196,7 @@ body {
 	width: 100%;
 	background-image: url(../images/patern2.png);
 	overflow: hidden;
+	padding-top: 70px;
 }
 .slider-img {
 	width: 50%;
@@ -808,7 +816,7 @@ input[type=range]:focus::-webkit-slider-runnable-track {
   }
 
 }
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 725px) {
   	.watch-video-button {
   		width: 100%;
   	}
