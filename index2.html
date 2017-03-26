@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mylinks</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" charset="UTF-8" src="js/jquery-3.2.0.min.js"></script>
+  	<script type="text/javascript" charset="UTF-8" src="js/rangeslider.js"></script>
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container header-container">
+			<div class="logo">
+				<h2>MYLINKS</h2>
+			</div>
+			<div class="navigation">
+				<div class="topnav" id="myTopnav">
+                    <a href="#" class="first-nav">Products</a>
+                    <a href="#">Publishers</a>
+                    <a href="#">Merchants</a>
+                    <a href="#">Login</a>
+                    <a href="#">Sign up</a>
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+                </div>
+			</div>
+		</div>
+	</header><!-- /header -->
+	<div class="slider">
+		<div class="container">
+			<div class="slider-value">
+				<h2>Refer &amp; Earn</h2>
+				<p>Mylinks referral program for Publishers</p>
+			</div>
+			<div class="slider-img">
+				<img src="images/socialad.png" alt="">
+			</div>
+		</div>
+	</div>
+	<div class="watch-video-container">
+		<div class="container">
+			<div class="row">
+				<div class="refer-link">
+					<p>Refer Mylinks to your visitors or friends and <span>Earn 25% </span>  of what we earn for 3 months from the publisher you refer.</p>
+				</div>
+				<div class="watch-video-button">
+					<button type="button" class="show-modal">Watch Video</button><br>
+					<p>Sign in to see your unique link</p>
+				</div>
+			</div>
+			<div class="not-get-a-publisher">
+				<p><span>Not get a publisher with Mylinks?</span><a href="#">  Sign up</a> to get access to cuelinks &amp; referral program</p>
+			</div>
+			<div class="how-can-u-refer">
+				<h4>How can you Refer Publishers to Mylinks?</h4>
+				<ul>
+					<li>visit your personal referral tab to get your unique code.</li>
+					<li>Write a review about Mylinks to your readers.</li>
+					<li>Share it on your social media pages.</li>
+					<li>Email your friends and readers.</li>
+					<li>Place our exclusive banners on your site.</li>
+				</ul>
+			</div>
+			<div class="how-much-can-i-make">
+				<h4>How Much Can I Make?</h4>
+				<div class="range-box">
+					<div class="width-75">
+						<div class="range-slider">
+						  <span class="slider-name">Number of Publisher Joined</span>
+						  <input class="range-slider__range range-slider-range"  onmouseup="mouseUp()" onmousemove="mousetrg()" type="range" id="val1" value="1" min="0" max="100">
+						  <span class="range-slider__value value">0</span>
+						</div>
+
+						<div class="range-slider">
+						  <span class="slider-name">Average monthly Earning of Joined Publishers</span>
+						  <input class="range-slider__range range-slider-range" onmouseup="mouseUp()" onmousemove="mousetrg()" type="range" id="val2" value="1" min="0" max="500" step="1">
+						  <span class="range-slider__value value">0</span>
+						</div>
+
+						<div class="range-slider">
+						  <span class="slider-name">Average paid plan value</span>
+						  <input class="range-slider__range range-slider-range" onmouseup="mouseUp()" onmousemove="mousetrg()" id="val3" type="range" value="1" min="0" max="100">
+						  <span class="range-slider__value value">0</span>
+						</div> 
+					</div>
+
+					<div class="width-25">
+					  <div class="result"><p id="result">₹0</p>
+					  </div>
+					  <button id="pressbutton" class="press-button" onclick="myFunctionresult()">Click here</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="terms-and-condition">
+		<div class="container">
+			<h3>Terms &amp; Conditions</h3>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+	</div>
+	<div class="footer-social-media">
+		<div class="container">
+			<div class="col-md-6 about-6">
+				
+					<div>
+						<h5>About</h5>
+						<ul>
+							<li>Company</li>
+							<li>Careers</li>
+							<li>Contact Us</li>
+							<li>Privacy Policy</li>
+						</ul>
+					</div>
+					<div>
+						<h5>Solutions</h5>
+						<ul>
+							<li>Publishers</li>
+							<li>Merchants</li>
+							<li>Blogs</li>
+							<li>forum</li>
+							<li>News</li>
+						</ul>
+					</div>
+				
+			</div>
+			<div class="col-md-6">
+				<div class="right-side">
+					<ul class="social-media">
+					<h5>Connect With US</h5>
+						<div class="row1">
+							<li><a href="#"><i class="fa fa-facebook facebook"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-twitter twitter"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-linkedin linkedin"></i></a></li>
+                        </div>
+                        <div class="row2">
+	                        <li><a href="#"><i class="fa fa-youtube-play youtube" aria-hidden="true"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-google-plus google-plus"></i></a></li>
+	                        <li><a href="#"><i class="fa fa-skype skype" aria-hidden="true"></i></a></li>
+                        </div>
+                    </ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		&copy; Copyright 2016 Mylinks
+	</footer>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="js/myscript.js"></script>
+
+
+<script>
+ jQuery(document).ready(function ($) {
+            $('.show-modal').on('click', function () {
+                $.showYtVideo({
+                    videoId: 'lJXDT_JJTJI'
+                });
+            });
+        });
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+	
+</body>
+</html>
